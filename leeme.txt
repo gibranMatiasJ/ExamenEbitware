@@ -1,0 +1,21 @@
+INSTRUCCIONES: 
+
+-EL PRIMER EXAMEN(EXAMEN BASE-DESARROLLAR EN JAVA(CONSOLA)), ES EL QUE LLEVA POR NOMBRE "Examenn001",
+el main se encuentra dentro de la carpeta vista, en la clase Formulario.java, es una interfaz en la que hay que 
+proporcionar los datos que aparecen, para después apretar los debidos botones para ver el comportamiento pedido 
+en el requerimiento.
+
+-EL SEGUNDO EXAMEN(SERVICIOS REST-JAVA & MONGODB (SPRING)) ES EL QUE LLEVA POR NOMBRE "clientesMongodb", al 
+levantar el sistema, para probar los servicios de una manera más rápida y óptima, ir a la url: http://localhost:8080/swagger-ui.html
+donde se mostrarán todos los servicios implementados , esto debido a que se implemento swagger para hacer más fáciles las pruebas.
+(antes de probar los servicios hay que iniciar nuestro servidor de MongoDB)
+
+		*para el método GET , en el parámetro es posible poner un id para obtener un cliente en especifico,  o la palabra "TODOS", con lo cual podremos observar la lista de todos nuestros registros.(tiene validaciones correspondientes)
+
+		*para el método POST, al anotar el objeto a insertar, no debe ponerse id, ya que éste se genera automaticamente, el formato para las fechas es aaa-mm-dd, cuenta con sus validaciones correspondientes para no ingresar nombre de usuario y correo repetidos.
+
+		*para el método PUT, sólo hay que anotar la nueva altura y peso del cliente , pasar de parámetro el id del mismo,
+		es posible poner mas parámetros pero sólo se editarán la altura y el peso (es lo acordado en el requerimiento),cuenta con sus validaciones correspondientes
+
+
+-EL TERCER EXAMEN(EXAMEN BASE DE DATOS EN POSTGRESQL) es el archivo sql "Examen03Ebit", dentro de él, se encuentran los querys para crear y alimentar las tablas, posteriormente las consultas pedidas para esta prueba.
